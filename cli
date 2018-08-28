@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "AutoLaunch Is Enabeld"
+COUNTER=1
+while(true)do
+./tg | grep -v "{"
+let COUNTER=COUNTER+1
+echo "Bot Is Running"
+done
